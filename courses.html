@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            .Courses{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            .train{
+                color: #fff;
+                border: 1px solid white;
+                padding: 5px 10px;
+                border-radius: 5px;
+                background-color: grey;
+            }
+
+            .train:hover{
+                color: rgb(38, 2, 243);
+            }
+
+            .Courses h1{
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .Courses p{
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 350;
+                color: #000000;
+                padding: 2px;
+            }
+
+            .courses-lornah{
+                margin-top: 4%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .courses-column{
+                flex-basis: 30%;
+                background: #e52727;
+                border-radius: 8px;
+                margin-bottom: 5%;
+                padding: 40px 5px;
+                box-sizing: border-box;
+                transition: 2s;
+            }
+
+            h3{
+                text-align: center;
+                font-weight: 500;
+                margin: 8px 0;
+                color: rgb(255, 255, 255);
+            }
+
+            .courses-column:hover{
+                box-shadow: 0 0 8px 8px  rgb(5, 255, 17);
+            }
+
+            @media(max-width: 700px){
+                .courses-lornah{
+                flex-direction: column;  
+                } 
+            }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="nav-links" id="navLinks">
+        <ul>
+            <li><a href="lornahinternetcafe.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="internetrates.html">Internet-Rates</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </div>
+
+    <section class="Courses">
+
+        <h1>Courses offered</h1> <br>
+        <p><i><b class="train">Lornah Internet Cafe offers a variety of courses in computer training such as;</b></i></p> <br>
+        <p>Microsoft Office Word, Microsoft Office Excel, Microsoft Office Powerpoint, Microsoft Office Publisher & Microsoft Office Access</p>
+    
+        <div class="courses-lornah">
+            <div class="courses-column">
+                <h3>Microsoft Word</h3>
+                <p>Microsoft Word is the word processing component of the Microsoft Office Suite.
+                    It is used primarily to enter, edit, format, save, retrieve and print documents</p>
+            </div>
+    
+            <div class="courses-column">
+                <h3>Microsoft Excel</h3>
+                <p>Microsoft Excel is a spreadsheet program that is used to record and analyse numerical data. Think of a spreadsheet as a collection of columns and rows that form a table.</p>
+            </div>
+    
+            <div class="courses-column">
+                <h3>Microsoft Powerpoint</h3>
+                <p>It is a presentation-based program that uses graphics, videos, among others to make a presentation more interactive and interesting.</p>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>

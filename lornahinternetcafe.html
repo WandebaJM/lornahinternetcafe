@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lornah Internet Cafe, Masaka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="/css/all.min.css">
+</head>
+
+<body>
+<section class="header">
+
+<nav>
+<a href="lornahinternetcafe.html"><img class="cafe" src="cafe.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="showMenu()"></i>
+            <ul>
+                <li><a href="lornahinternetcafe.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="internetrates.html">Internet-Rates</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+        <div class="lornahcafe">
+        <h1>Lornah Internet Cafe, Masaka</h1>
+        <p>At Lornah Internet cafe, the Best Service is Guaranteed</p>
+        <a class="visitlornah" href="">Visit us to know more</a>
+        </div>
+</section>
+
+<section class="Courses">
+
+    <h1>Courses offered</h1> <br>
+    <p><i><b class="train">Lornah Internet Cafe offers a variety of courses in computer training such as;</b></i></p> <br>
+    <p>Microsoft Office Word, Microsoft Office Excel, Microsoft Office Powerpoint, Microsoft Office Publisher & Microsoft Office Access</p>
+
+    <div class="courses-lornah">
+        <div class="courses-column">
+            <h3>Microsoft Word</h3>
+            <p>Microsoft Word is the word processing component of the Microsoft Office Suite.
+                It is used primarily to enter, edit, format, save, retrieve and print documents</p>
+        </div>
+
+        <div class="courses-column">
+            <h3>Microsoft Excel</h3>
+            <p>Microsoft Excel is a spreadsheet program that is used to record and analyse numerical data. Think of a spreadsheet as a collection of columns and rows that form a table.</p>
+        </div>
+
+        <div class="courses-column">
+            <h3>Microsoft Powerpoint</h3>
+            <p>It is a presentation-based program that uses graphics, videos, among others to make a presentation more interactive and interesting.</p>
+        </div>
+    </div>
+</section>
+
+<section class="Buildings">
+    <h1>Our Location</h1> <br>
+    <p>We are just Opposite the prominent "Byansi Clinic" on Hajji Mpuuga's Plaza</p> <br><br>
+
+    <div class="build">
+        <img src="mpugga1.jpg">
+
+        <div class="locate">
+            
+        </div>       
+    </div>
+    </section>
+
+<section class="foot">
+    <center><h1 class="cont-info">Contact Information</h1></center> <br>
+    <div class="footer">
+        <p><ion-icon name="call"></ion-icon> Tel: +256 756677656/  +256 779068448</p>
+        <p><ion-icon name="mail"></ion-icon> Email: wandebajoelmathias@gmail.com</p>
+    </div>
+</section>
+
+
+<!--- Javascript for Toggle Menu --->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
